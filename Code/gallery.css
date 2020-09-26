@@ -1,0 +1,104 @@
+.top
+{
+    margin: 0%;
+    font-size: 11px;
+    color: rgb(128,128,128);
+    margin-bottom: 30px;
+    padding: 8px 10% 8px 10%;
+    background-color: rgb(232,232,232);
+}
+i, .top a{
+    padding: 3px;
+    font-size: 14px;
+    color: rgb(128,128,128);
+    text-decoration: none;
+}
+.nav
+{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 12px;
+    font-family: 'Amethysta';
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-shopping-cart
+{
+    background-color: #47d147;
+    color: white;
+    padding: 15px;
+    width: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.nav ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.nav li 
+{
+    float: left;
+}
+li a
+{
+    margin-top: 22px;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 25px 25px;
+    text-decoration: none;
+}
+li a:hover 
+{
+    background-color: rgba(2, 22, 51, 0.253);
+}
+.gallery
+{
+    font-size: 25px;
+    font-family: 'Kanit';
+    margin-top: 3%;
+    margin-bottom: 5%;
+    padding: 6px 10% 6px 10%;
+    background-color:rgb(240,240,240);
+}
+.main
+{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Poppins';
+    text-align: center;
+}
+
+
+  .bottom
+  {
+      text-align: center;
+      font-family: 'Poppins';
+  }
+  
+  .bottom p
+  {
+      font-size: 14px;
+  }
+  .bottom label
+  {
+      font-size: 12px;
+  }
+ .buttonlast
+ {
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 10%;
+    color: white;
+    width: 4%;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 90%;
+ }

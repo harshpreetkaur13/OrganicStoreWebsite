@@ -1,0 +1,109 @@
+.top
+{
+    margin: 0%;
+    font-size: 11px;
+    color: rgb(128,128,128);
+    margin-bottom: 30px;
+    padding: 8px 10% 8px 10%;
+    background-color: rgb(232,232,232);
+}
+i, .top a{
+    padding: 3px;
+    font-size: 14px;
+    color: rgb(128,128,128);
+    text-decoration: none;
+}
+.nav
+{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 12px;
+    font-family: 'Amethysta';
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-shopping-cart
+{
+    background-color: #47d147;
+    color: white;
+    padding: 15px;
+    width: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.nav ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.nav li 
+{
+    float: left;
+}
+li a
+{
+    margin-top: 22px;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 25px 25px;
+    text-decoration: none;
+}
+li a:hover 
+{
+    background-color: rgba(2, 22, 51, 0.253);
+}
+
+  .bottom
+  {
+      text-align: center;
+      font-family: 'Poppins';
+      background-color: rgb(240,240,240);
+      padding: 4%;
+  }
+.bottom p
+  {
+      font-size: 14px;
+  }
+  .middle
+  {
+      text-align: center;
+  }
+  h5{
+      color: #4CAF50;
+  }
+  input[type=text], input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 50%;
+    margin: auto;
+  }

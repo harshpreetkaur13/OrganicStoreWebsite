@@ -1,0 +1,106 @@
+<html>
+    <head>
+        <title>Contacts</title>
+        <link rel="stylesheet" href="contactsstyle.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href='https://fonts.googleapis.com/css?family=Cherry Cream Soda' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Amethysta' rel='stylesheet'>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+        <style>
+            /* Set the size of the div element that contains the map */
+           #map {
+             height: 400px;  /* The height is 400 pixels */
+             width: 100%;  /* The width is the width of the web page */
+            }
+         </style>
+         <script>
+             function validateForm() 
+             {
+                alert("Submitted Succesfully");
+            }
+         </script>
+    </head>
+    <body>
+
+    <div class="top" id="top">
+        <p>WELCOME TO OUR ORGANIC STORE WEBSITE! &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            <a href="login.html" target="_blank">LOGIN</a>&emsp;&emsp;&emsp;&emsp;
+                <a href="https://twitter.com/login?lang=en" target="_blank"><i class="fa fa-twitter"></i></a>
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                <a href="https://github.com/" target="_blank"><i class="fa fa-github"></i></a>
+        </p>
+    </div>
+
+    <div class="nav">
+        <ul><b>
+                <li><img src="https://kiarofoods.com/wp-content/uploads/2015/10/logo.png" height="12%" width="50%"></li>
+                <li><a href="organicfood.html">HOME</a></li>
+                <li><a href="aboutus.html">ABOUT US</a></li>
+                
+                <li><a href="features.html">FEATURES</a></li>
+                
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="contacts.html">CONTACTS</a></li>
+                <li><a href="#"><i class="fa fa-search"></i></a></li>
+                <li id="cart"><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+        </b></ul>
+    </div>
+
+    <div id="map"></div>
+    <script>
+    function initMap() 
+    {
+        var uluru = {lat: -25.344, lng: 131.036};
+        var map = new google.maps.Map(
+        document.getElementById('map'), {zoom: 4, center: uluru});
+        var marker = new google.maps.Marker({position: uluru, map: map});
+        }
+    </script>
+    
+    <script defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAYURfHX_pfe8DlGjbj9ZhTpELrvv1ZMs4&callback=initMap">
+    </script>
+
+    <br><br>
+
+    <div class="middle">
+        <h5>Contact Form</h5>
+        <h1>GET IN TOUCH WITH US</h1>
+        <p>Organic Store is your source for healthy way of living. We welcome you at our facility at any time!</p>
+        
+        <div class="container">
+        <form onsubmit="return validateForm()">
+    
+            <input type="text" id="name" name="name" placeholder="Name*" required>
+        
+            <input type="email" id="email" name="email" placeholder="Email*" required>
+        
+            <select id="country" name="country">
+              <option value="India">India</option>
+              <option value="australia">Australia</option>
+              <option value="canada">Canada</option>
+              <option value="usa">USA</option>
+            </select>
+        
+            <textarea id="message" name="message" placeholder="Message" style="height:200px" required></textarea>
+        
+            <input type="submit" value="Submit">
+          </form>
+          </div>
+
+    </div>
+    
+    <br><br>
+
+    <div class="bottom">
+        <p>Organic Store © 2020 All Rights Reserved. Terms of Use and Privacy Policy</p>
+    </div>
+
+   
+    </body>
+</html>
